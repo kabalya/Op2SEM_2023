@@ -14,18 +14,17 @@ namespace Subset
 
 		void printSubset();
 
-		SubSet* operator+(SubSet other); //Объединение двух множеств (operator+).
+		     SubSet* operator+(SubSet other); //РћР±СЉРµРґРёРЅРµРЅРёРµ РґРІСѓС… РјРЅРѕР¶РµСЃС‚РІ (operator+).
 
-		bool operator==(SubSet other);//Сравнение (== и !=).
-
-
-		bool operator!=(SubSet other);//Сравнение (== и !=).
-
-		SubSet* operator+=(int number);//Добавление числа в множество (operator+=).
+        bool operator==(SubSet other);//РЎСЂР°РІРЅРµРЅРёРµ (== Рё !=).
 
 
-		SubSet* operator-=(int number); //Изъятие числа из множества(operator-=).
+        bool operator!=(SubSet other);//РЎСЂР°РІРЅРµРЅРёРµ (== Рё !=).
 
+        SubSet* operator+=(int number);//Р”РѕР±Р°РІР»РµРЅРёРµ С‡РёСЃР»Р° РІ РјРЅРѕР¶РµСЃС‚РІРѕ (operator+=).
+
+
+        SubSet* operator-=(int number); //РР·СЉСЏС‚РёРµ С‡РёСЃР»Р° РёР· РјРЅРѕР¶РµСЃС‚РІР°(operator-=).
 
 		
 
