@@ -86,7 +86,7 @@ namespace Figures {
         std::sort(s.begin(), s.end());
        
         v.insert(v.end(), s.begin(), s.end());
-        std:: sort(v.begin(), v.end());  // сортировка
+        std:: sort(v.begin(), v.end());  
         std::cout << "After sort: ";
         
         for (int i = 0; i < sizeof(v); i++) {
