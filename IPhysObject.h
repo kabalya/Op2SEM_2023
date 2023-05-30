@@ -9,11 +9,11 @@ namespace Figures {
     public:
         virtual double mass() = 0;
        
-        virtual Figures::CVector2d position() = 0;        // Координаты центра масс, м.
+        virtual Figures::CVector2d position() = 0;        // РљРѕРѕСЂРґРёРЅР°С‚С‹ С†РµРЅС‚СЂР° РјР°СЃСЃ, Рј.
        
-        virtual bool operator== (IPhysObject& ob) = 0;    // Сравнение по массе.
+        virtual bool operator== (IPhysObject& ob) = 0;    // РЎСЂР°РІРЅРµРЅРёРµ РїРѕ РјР°СЃСЃРµ.
        
-        virtual bool operator< (IPhysObject& ob) = 0;     // Сравнение по массе.
+        virtual bool operator< (IPhysObject& ob) = 0;     // РЎСЂР°РІРЅРµРЅРёРµ РїРѕ РјР°СЃСЃРµ.
     };
 
 } // Figures
