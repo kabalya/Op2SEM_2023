@@ -5,7 +5,7 @@ namespace Figures {
 
     class IPrintable {
     public:
-        // Отобразить на экране
+        // РћС‚РѕР±СЂР°Р·РёС‚СЊ РЅР° СЌРєСЂР°РЅРµ
         
         virtual void draw() = 0;
     };
